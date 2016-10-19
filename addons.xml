@@ -2,8 +2,8 @@
 <addons>
 <addon id="docker.lsioarmhf.plex"
        name="Plex (lsioarmhf/plex:latest)"
-       version="1.0.0"
-       provider-name="libreelec.tv">
+       version="1.0.1"
+       provider-name="linuxserver.io">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
