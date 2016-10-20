@@ -1,5 +1,8 @@
 docker.lsioarmhf.plex:
 ----------------------
+1.0.8
+-Fix housekeeping
+
 1.0.7
 -Fix housekeeping
 
