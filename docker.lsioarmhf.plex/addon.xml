@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="docker.lsioarmhf.plex"
        name="Plex (lsioarmhf/plex:latest)"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="linuxserver.io">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
