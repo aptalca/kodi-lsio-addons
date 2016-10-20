@@ -1,0 +1,7 @@
+repository.linuxserver:
+----------------------
+1.0.1
+-Zip hashes enabled
+
+1.0.0 (2016-10-18)
+-Initial release

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+  id="repository.linuxserver.armhf"
+  name="Linuxserver armhf Add-ons"
+  version="1.0.1"
+  provider-name="linuxserver">
+  <requires>
+    <import addon="xbmc.addon"
+            version="16.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository"
+             name="Unofficial Linuxserver armhf Add-on Repository">
+    <info compressed="true">https://raw.githubusercontent.com/aptalca/kodi-lsio-addons-armhf/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/aptalca/kodi-lsio-addons-armhf/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/aptalca/kodi-lsio-addons-armhf/master/download</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Install Add-ons from linuxserver's armhf repository</summary>
+    <description>Download and install armhf add-ons from the unofficial linuxserver's addon repository.</description>
+    <disclaimer> </disclaimer>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
