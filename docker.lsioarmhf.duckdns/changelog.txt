@@ -1,5 +1,8 @@
 docker.lsioarmhf.duckdns:
 ------------------------
+1.0.2
+-Add images
+
 1.0.1
 -Fix housekeeping script
 -Remove uid/gid settings (permanently set to root)
