@@ -6,7 +6,6 @@
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
-
     <import addon="service.system.docker" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
@@ -15,10 +14,11 @@
   <extension point="xbmc.addon.metadata">
     <summary>DuckDNS dynamic dns updater as a Docker container</summary>
     <description>
-Duckdns is a free dynamic DNS service hosted on Amazon VPC. Unlike most other free dynamic DNS providers, DuckDNS accounts do not require periodic user action to keep them alive. Visit www.duckdns.org to register your domain.
+Duckdns is a free dynamic DNS service hosted on Amazon VPC. Unlike most other free dynamic DNS providers, DuckDNS accounts do not require periodic user action to keep them alive. Visit www.duckdns.org to register your domain.&#10;&#10;This docker container is brought to you by the LinuxServer team.&#10;Please visit linuxserver.io
     </description>
     <disclaimer>
-
+This is a disclaimer
+This is a disclaimer
     </disclaimer>
     <platform>all</platform>
   </extension>
